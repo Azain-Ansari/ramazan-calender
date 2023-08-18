@@ -1,0 +1,131 @@
+@font-face {
+    font-family: azain;
+    src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+@keyframes ansari{
+    form{
+        left: 0px;
+    }
+    to{
+         left: 220px; 
+    }
+}
+th{
+
+   
+   font-family: azain;
+    font-size: 30px;
+    background-color: rgb(23, 2, 43);
+    color: aliceblue;
+    font-weight: normal;
+}
+th:hover{
+    background-color: rgb(247, 12, 12);
+    color: rgb(176, 202, 24);
+}
+table{
+    text-align: center;
+     border-collapse: collapse;
+    position: absolute;
+    top: 200px;
+    left: 220px; 
+    
+}
+
+.date{
+     width: 200px;
+     padding: 10px;
+     padding-bottom: 0% ;
+     
+}
+.day{
+    padding: 10px;
+    width: 150px;
+    padding-bottom: 0% ;
+}
+.sn{
+    width: 50px;
+    padding-bottom: 0% ;
+}
+
+.sheri{
+    padding: 10px;
+    width: 150px;
+    padding-bottom: 0% ;
+}
+.iftari{
+    padding: 10px;
+    width: 150px;
+    padding-bottom: 0% ;
+}
+body{
+    
+    background-image:url(download.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h1{
+    transition: background-color 0.5s transform-rotate 1s;
+    color: rgb(200, 182, 218);
+    background-color: rgba(57, 37, 170, 0.534);
+    width: 600px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    left: 400px; 
+    top :90px;
+    transition-delay: 1s;
+     transition-property: background-color ;
+     transition-timing-function: ease-in-out;
+     transition-duration: 2s;
+     transform: skew(20deg)(10deg);
+     font-size: 40px;
+    animation-name: ansari;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out ;
+    font-family: azain;
+}
+h1:hover{
+  transition-duration: 2s;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(177, 248, 12);
+  background-color:rgb(238, 11, 11)
+  
+
+}
+.date:hove{
+    background-color: black;
+    color: aliceblue;
+}
+.day:hover { background-color: black;
+color: aliceblue;
+}
+.iftari:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.sheri:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.sn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.date:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+tr:hover{
+ background-color: red;
+ color: white;
+}
+tr,td,th{
+    border:1px solid blue;
+}
+
